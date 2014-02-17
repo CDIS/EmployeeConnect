@@ -1,0 +1,8 @@
+First_Name:Palak
+Middle_Name:Kamlesh
+Last_Name:Lakhani
+Emp_Code:6680
+Phone:9819998067
+Email:palak.lakhani@cybercom.com
+DOB:28-10-1989
+Blood_Group:o+
