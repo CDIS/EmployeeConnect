@@ -1,4 +1,4 @@
-package com.example.demoform;
+package com.employeeconnect.activities;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -18,6 +18,9 @@ import android.view.ViewGroup.LayoutParams;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.employeeconnect.R;
+import com.employeeconnect.services.ReminderSettingService;
 
 public class MainForm extends Activity {
 	

@@ -1,4 +1,4 @@
-package com.example.demoform;
+package com.employeeconnect.model;
 
 import java.util.Date;
 

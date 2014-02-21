@@ -1,4 +1,4 @@
-package com.example.demoform;
+package com.employeeconnect.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.employeeconnect.R;
 
 public class DisplayFormData extends Activity {
 
@@ -20,8 +22,7 @@ public class DisplayFormData extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		
+		super.onCreate(savedInstanceState);		
 		Intent intent = getIntent();
 		
 		LinearLayout layout = new LinearLayout(this);
@@ -53,6 +54,8 @@ public class DisplayFormData extends Activity {
 		layout.setGravity(Gravity.LEFT);
 		
 		setContentView(layout);
+		
+		
 	}
 
 	@Override
