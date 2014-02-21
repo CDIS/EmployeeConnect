@@ -10,6 +10,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -37,7 +38,8 @@ public class MainForm extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main_form);
-		
+		Intent intent1 = new Intent(this, ReminderSettingService.class);
+		startService(intent1);
 		InputStream is = getResources().openRawResource(R.raw.employee);
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr,8192);

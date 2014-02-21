@@ -26,6 +26,10 @@
             android:name="com.example.demoform.DisplayFormData"
             android:label="@string/title_activity_display_form_data" >
         </activity>
+        <service android:name="com.example.demoform.ReminderSettingService" android:exported="false"/>
+        <service android:name="com.example.demoform.NotificationService" android:exported="false"/>
+        <receiver android:name="com.example.demoform.AlarmReceiver" android:enabled="true" ></receiver>
     </application>
+    
 
 </manifest>
