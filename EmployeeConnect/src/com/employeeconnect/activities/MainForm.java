@@ -95,7 +95,7 @@ public class MainForm extends Activity {
 	public void showData(Map<String,String> map){		
 		
 		image = (ImageView) findViewById(R.id.imageView1);
-		image.setImageResource(R.drawable.android);
+		image.setImageResource(R.drawable.default_user);
 		
 		Set<Entry<String, String>> testMaps = map.entrySet();
 		for (Entry<String, String> entry : testMaps) {
